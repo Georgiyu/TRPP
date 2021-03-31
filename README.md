@@ -1,4 +1,4 @@
-![curl logo](https://curl.se/logo/curl-logo.svg)
+![curl logo](https://1.bp.blogspot.com/-XYvQY7hhnMI/XZMcftSHt5I/AAAAAAAAAfk/oaI0QZ2T9-YOWIEuYm0jncnx19sTDbLXwCLcBGAsYHQ/s400/PHP%2Btraining%2Binstitute%2Bnear%2Bme_learningcaff.com.png)
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/63/badge)](https://bestpractices.coreinfrastructure.org/projects/63)
 [![Coverity passed](https://scan.coverity.com/projects/curl/badge.svg)](https://scan.coverity.com/projects/curl)
