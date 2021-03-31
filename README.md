@@ -1,33 +1,35 @@
 ![curl logo](https://1.bp.blogspot.com/-XYvQY7hhnMI/XZMcftSHt5I/AAAAAAAAAfk/oaI0QZ2T9-YOWIEuYm0jncnx19sTDbLXwCLcBGAsYHQ/s400/PHP%2Btraining%2Binstitute%2Bnear%2Bme_learningcaff.com.png)
 
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/63/badge)](https://bestpractices.coreinfrastructure.org/projects/63)
-[![Coverity passed](https://scan.coverity.com/projects/curl/badge.svg)](https://scan.coverity.com/projects/curl)
-[![Travis-CI Build Status](https://travis-ci.org/curl/curl.svg?branch=master)](https://travis-ci.org/curl/curl)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/l1vv31029huhf4g4?svg=true)](https://ci.appveyor.com/project/curlorg/curl)
-[![Azure DevOps Build Status](https://dev.azure.com/daniel0244/curl/_apis/build/status/curl.curl?branchName=master)](https://dev.azure.com/daniel0244/curl/_build/latest?definitionId=1&branchName=master)
-[![Cirrus Build Status](https://api.cirrus-ci.com/github/curl/curl.svg?branch=master)](https://cirrus-ci.com/github/curl/curl)
-[![Backers on Open Collective](https://opencollective.com/curl/backers/badge.svg)](#backers)
-[![Sponsors on Open Collective](https://opencollective.com/curl/sponsors/badge.svg)](#sponsors)
-[![Language Grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/curl/curl.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/curl/curl/context:cpp)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d11483a0cc5c4ebd9da4ff9f7cd56690)](https://www.codacy.com/app/curl/curl?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=curl/curl&amp;utm_campaign=Badge_Grade)
-[![Fuzzing Status](https://oss-fuzz-build-logs.storage.googleapis.com/badges/curl.svg)](https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:curl)
+## Немножко информации о проекте
 
-Curl is a command-line tool for transferring data specified with URL
-syntax. Find out how to use curl by reading [the curl.1 man
-page](https://curl.se/docs/manpage.html) or [the MANUAL
-document](https://curl.se/docs/manual.html). Find out how to install Curl
-by reading [the INSTALL document](https://curl.se/docs/install.html).
+Проект представляет из себя сайт, который несёт в себе информацию по основным комплектующим вашего компьютера. Здесь пользователь сможет найти кратко и лаконично описанную информацию, которая поможет ему в познании работы той или иной комплектующей
 
-libcurl is the library curl is using to do its job. It is readily available to
-be used by your software. Read [the libcurl.3 man
-page](https://curl.se/libcurl/c/libcurl.html) to learn how!
+## Запуск проекта
 
-You can find answers to the most frequent questions we get in [the FAQ
-document](https://curl.se/docs/faq.html).
+Предполагается, что к времени запуска проекта на вашей вычислительной машине установлен локальный web-сервер.
+Чтобы открыть проект добавьте его в папку domains (рядом с localhost), после запустите локальный web-server  и откройте консоль сервера
+Для наглядности буду вставлять скрины (я использую локальный сервер OpenServer)
+ ![curl logo](http://i91.fastpic.ru/big/2017/0111/09/df14ece0b17a1fdf337cce8f262c8c09.jpg)
+ Получилось? Отлично!!!
+ Теперь вам необходимо установить систему сборки Phing для, соответственно сборки проекта. Если у вас она уже установлена, идем к следующему шагу, остальные переходим по [ссылке](https://mc-class.ru/razrab/856-stavim-phing-na-openserver.html)
+ 
+ Далее у вас, о да, собралась документация по проекту и сам проект архивировался для дальнейшей эксплуатации на других вчилительных машинах
 
-Study [the COPYING file](https://curl.se/docs/copyright.html) for
-distribution terms.
+ Теперь, наконец, мы переходим к открытию проекта
+ Если вы используете Openserver то вот инструкция:
+ 1) Нажимаете ПКМ по значку работающего Openserver
+ 2) Наводите мышку на пункт "Мои проекты", и, в появившемся окне выбираете папку с проектом, в моём случае это "testsite.local"
+ 3) Нажимаете ЛКМ по папке с проектом
+ 4) Вуаля, сайт работает
 
+ На других локальных серверах инструкция по запуску проекта аналогичная
+
+ Для работы с базой данных, и учёта зарегистрировавшихся пользователей, вам будет необходим phpmyadmin
+ Если вы используете Openserver то вот инструкция по его запуску:
+ 1) Нажимаете ПКМ по значку работающего Openserver
+ 2) Наводите курсор на вкладку "Дополнительно", и, в появившемся окне открываете вкладку "PhpMyAdmin"
+ 3) Логин и пароль для входа одинаков: root
+ 4) Вы зашли на базу данных
 ## Contact
 
 If you have problems, questions, ideas or suggestions, please contact us by
