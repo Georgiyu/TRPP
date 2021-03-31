@@ -11,11 +11,11 @@
 Для наглядности буду вставлять скрины (я использую локальный сервер OpenServer)
  ![curl logo](http://i91.fastpic.ru/big/2017/0111/09/df14ece0b17a1fdf337cce8f262c8c09.jpg)
 
- 
+
  Получилось? Отлично!!!
  Теперь вам необходимо установить систему сборки Phing для, соответственно сборки проекта. Если у вас она уже установлена, идем к следующему шагу, остальные переходим по [ссылке](https://mc-class.ru/razrab/856-stavim-phing-na-openserver.html)
  
- Далее у вас, о да, собралась документация по проекту и сам проект архивировался для дальнейшей эксплуатации на других вчилительных машинах
+ Далее у вас, о да, собралась документация по проекту и сам проект архивировался для дальнейшей эксплуатации на других вычислительных машинах
 
  Теперь, наконец, мы переходим к открытию проекта
  Если вы используете Openserver то вот инструкция:
@@ -32,25 +32,17 @@
  2) Наводите курсор на вкладку "Дополнительно", и, в появившемся окне открываете вкладку "PhpMyAdmin"
  3) Логин и пароль для входа одинаков: root
  4) Вы зашли на базу данных
-## Contact
+## Контакты
 
-If you have problems, questions, ideas or suggestions, please contact us by
-posting to a suitable [mailing list](https://curl.se/mail/).
-
-All contributors to the project are listed in [the THANKS
-document](https://curl.se/docs/thanks.html).
+Если у вас есть проблемы, вопросы, идеи или предложения, пожалуйста, свяжитесь с нами, отправив
+сообщение на почту - posysaev20001@mail.ru или напишите в [соц.сети](https://vk.com/gposysaev) или [сюда](https://vk.com/king_of_cum)
 
 
 ## Git
 
 
+.......
 
+## Спонсоры
 
-## Notice
-
-This project was created with all the tenderness and love. A lot of time and effort was invested in it. And I hope you, an inquisitive user, will appreciate it
-
-
-## Sponsors
-
-Our most dedicated sponsor is our enthusiasm and perseverance)
+Наш самый преданный спонсор - это наш энтузиазм и упорство) 
